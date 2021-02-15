@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 
 namespace Zoo
 {
@@ -31,13 +32,13 @@ namespace Zoo
              * Zolang i kleiner is als het aantal elementen in de array (9 beesten) blijft hij door tellen
              * Als i 9 wordt, dan gaat de for-loop niet verder.
             */
-            for(int i = 0; i < wildlands.Length; i++)
+            for (int i = 0; i < wildlands.Length; i++)
             {
                 string animal = wildlands[i]; //Dit is de naam van het dier
                 // Opdracht 2: Print hieronder de animal uit.
 
                 // Opdracht 3. Pas de switch aan en zorg dat elk dier een geluid maakt.
-                switch(animal)
+                switch (animal)
                 {
                     case "Orang-oetan":
                         Console.WriteLine($"{animal} doet Oeehh Hoeee Aaah aaah!");
